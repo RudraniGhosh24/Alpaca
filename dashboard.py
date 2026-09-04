@@ -7,7 +7,7 @@ import os
 import time
 from openai import OpenAI
 
-st.set_page_config(page_title="HedgeOS", page_icon="🧠", layout="wide")
+st.set_page_config(page_title="VolHarvest", page_icon="🧠", layout="wide")
 
 def run_alpaca_cli(args):
     try:
@@ -72,7 +72,7 @@ def submit_limit_order(contract_symbol, qty, limit_price, side="buy"):
         "--time-in-force", "day"
     ])
 
-st.title("🧠 HedgeOS: Autonomous Options Harvester")
+st.title("🧠 VolHarvest: Autonomous Options Harvester")
 
 account = run_alpaca_cli(["account", "get"])
 if account:
