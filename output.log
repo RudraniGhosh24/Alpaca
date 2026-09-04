@@ -1,0 +1,78 @@
+/Users/apple/Documents/ALPACA/hackathon-agent/venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+==================================================
+🧠 HEDGE OS: VOLATILITY HARVESTER (Straddle Agent)
+==================================================
+
+💰 Active Account. Buying Power: $398511.92
+
+
+========================================
+📡 Analyzing NVDA...
+📰 Latest Headlines:
+Tech stocks today: Tesla stock pops ahead of Cybercab event, Nvidia acquires Hugging Face
+AI demand is 'exceptional,' but the supply chain is not: HPE CEO
+How Nvidia's latest deal continues to target all points of the AI trade
+Why Nvidia's purchase of Hugging Face is an 'important strategic move'
+Does XRAY’s Profit Recovery and Reaffirmed 2026 Outlook Shift the Dentsply Sirona Thesis?
+
+🧠 LLM Volatility Prediction (nvidia/nemotron-3-ultra-550b-a55b): EXTREME
+⚠️ Extreme volatility detected. Sourcing Straddle contracts...
+🔍 Fetching option chains for NVDA...
+   ✅ Found optimal Straddle at Strike 230.0
+      Call: NVDA260904C00230000 (Ask: $1.08)
+      Put:  NVDA260904P00230000 (Ask: $2.47)
+      Total Premium: $3.5500000000000003
+
+🚀 Executing Straddle Limit Orders...
+   -> [Agent] Executing BUY 1 of NVDA260904C00230000 at Limit $1.13
+   -> [Agent] Executing BUY 1 of NVDA260904P00230000 at Limit $2.59
+   🎉 Call Order ID: e0382b63-2d98-433c-9aab-3d51f7a179c3 (accepted)
+   🎉 Put Order ID: a6244840-8ae1-4b75-8cbd-3fc0d8167594 (accepted)
+
+========================================
+📡 Analyzing CRWD...
+📰 Latest Headlines:
+US Just Took Down a 20-Year-Old Russian-Linked Cybercrime Operation — CrowdStrike Helps Disrupt Sality Botnet Behind Years of Attacks
+Zscaler Makes Bid to Join the Ranks of AI Winners
+Guidewire Software, HubSpot, CrowdStrike, ServiceNow, and Dynatrace Shares Are Soaring, What You Need To Know
+Can Commvault Systems (CVLT) Justify Its Valuation After Clumio Won FedRAMP Ready Status?
+Jim Cramer Explains Why CrowdStrike (CRWD) Upended the Tech Bear Thesis
+
+🧠 LLM Volatility Prediction (nvidia/nemotron-3-ultra-550b-a55b): SIDEWAYS
+⏸️ No extreme catalyst. Skipping CRWD.
+
+========================================
+📡 Analyzing PLTR...
+📰 Latest Headlines:
+Palantir Stock Posts Best Day In A Month After Expanded PwC AI Deal, Defying Michael Burry’s Bearish Bet
+What Does Palantir Technologies (PLTR) Winning Army Work Mean For Its AI Growth?
+Palantir Technologies, Workiva, Elastic, RingCentral, and 8x8 Shares Skyrocket, What You Need To Know
+Palantir Stock Jumps on Expanded PwC AI Deal
+Palantir Stock Defies Red Flag and Skyrockets 8% – Here’s Why
+
+🧠 LLM Volatility Prediction (nvidia/nemotron-3-ultra-550b-a55b): SIDEWAYS
+⏸️ No extreme catalyst. Skipping PLTR.
+
+========================================
+📡 Analyzing TSLA...
+📰 Latest Headlines:
+Tech stocks today: Tesla stock pops ahead of Cybercab event, Nvidia acquires Hugging Face
+Tesla's Cybercab event is tonight. Here's what the industry — and Wall Street — expects
+Dow Jones Futures Await Jobs Report After Bullish Market Move; Tesla Cybercabs Hit The Road
+Dow, S&P 500, Nasdaq Futures Tread Water As August Jobs Data Looms: TSLA, LULU, PL, CRDO Stocks In Focus
+TSLA Stock Slips Overnight As Safety Regulator Scrutinizes Cybercab — Retail Fumes Over Event Blackout
+
+🧠 LLM Volatility Prediction (nvidia/nemotron-3-ultra-550b-a55b): EXTREME
+⚠️ Extreme volatility detected. Sourcing Straddle contracts...
+🔍 Fetching option chains for TSLA...
+   ✅ Found optimal Straddle at Strike 375.0
+      Call: TSLA260904C00375000 (Ask: $6.72)
+      Put:  TSLA260904P00375000 (Ask: $5.19)
+      Total Premium: $11.91
+
+🚀 Executing Straddle Limit Orders...
+   -> [Agent] Executing BUY 1 of TSLA260904C00375000 at Limit $7.06
+   -> [Agent] Executing BUY 1 of TSLA260904P00375000 at Limit $5.45
+   🎉 Call Order ID: 91f14136-ee84-4d77-88e2-5be05e24a6e4 (accepted)
+   🎉 Put Order ID: 59948c8d-479d-4200-a4ae-9812cc0f7d1e (accepted)
