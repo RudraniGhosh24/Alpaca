@@ -11,7 +11,11 @@ st.set_page_config(page_title="HedgeOS", page_icon="🧠", layout="wide")
 
 def run_alpaca_cli(args):
     try:
-        cmd = ["./alpaca"] + args + ["--jq", "."]
+        
+        import platform
+        binary = "./alpaca-linux" if platform.system() == "Linux" else "./alpaca"
+        cmd = [binary] + args + ["--jq", "."]
+
         result = subprocess.run(cmd, capture_output=True, text=True, check=True)
         return json.loads(result.stdout)
     except Exception as e:
