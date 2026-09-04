@@ -1,5 +1,7 @@
 # 🧠 HedgeOS: Autonomous Volatility Harvester
 
+**🔥 [Live Demo Available Here](https://alpaca-hackathon.streamlit.app/) 🔥**
+
 **HedgeOS** is an autonomous AI trading agent built for the Alpaca AI Trading Hackathon. Instead of making basic directional bets ("stock goes up"), HedgeOS uses large language models to analyze real-time macroeconomic news and execute **Delta-Neutral Options Straddles** via the Alpaca CLI to profit off pure market volatility.
 
 ## 🚀 How It Works
